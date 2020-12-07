@@ -23,7 +23,7 @@ Here is a demo that shows how to use stoch-fuzz.
 
 [![asciicast](https://asciinema.org/a/377835.svg)](https://asciinema.org/a/377835)
 
-## Issues
+## Notes
 
 + Currently, stoch-fuzz only supports x64 ELF files.
 
