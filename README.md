@@ -21,7 +21,7 @@ More information can be found in the document of [AFL](https://github.com/google
 
 Here is a demo that shows how to use stoch-fuzz.
 
-[![asciicast](https://asciinema.org/a/NcaXaXq3VufvKSu8NyHqyivZl.svg)](https://asciinema.org/a/NcaXaXq3VufvKSu8NyHqyivZl)
+[![asciicast](https://asciinema.org/a/377835.svg)](https://asciinema.org/a/377835)
 
 ## Issues
 
