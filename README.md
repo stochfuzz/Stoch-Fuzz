@@ -27,7 +27,7 @@ Here is a demo that shows how to use stoch-fuzz.
 
 + Currently, stoch-fuzz only supports x64 ELF files.
 
-+ This verion of stoch-fuzz can only be executed in the same directory as the target binary. For example, if you want to fuzz `$HOME/demo/libpng-1.2.56`, please change your working directory into `$HOME/demo`.
++ This verion of stoch-fuzz can only be executed in the same directory as the target binary. For example, if you want to fuzz `$HOME/demo/libpng-1.2.56`, please change your working directory into `$HOME/demo`. Additionally, please use `stoch-fuzz -i seeds -o output -- ./libpng-1.2.56 @@` instead of `stoch-fuzz -i seeds -o output -- libpng-1.2.56 @@`
 
 + Although stoch-fuzz does support Position-independent code (PIC), there are some implementation bugs which make fuzzing PIC binaries failed. We will fix it as soon as possible.
 
