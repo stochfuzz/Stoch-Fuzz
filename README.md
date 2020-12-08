@@ -29,6 +29,6 @@ Here is a demo that shows how to use stoch-fuzz.
 
 + This verion of stoch-fuzz can only be executed in the same directory as the target binary. For example, if you want to fuzz `$HOME/demo/libpng-1.2.56`, please change your working directory into `$HOME/demo`. Additionally, please use `stoch-fuzz -i seeds -o output -- ./libpng-1.2.56 @@` instead of `stoch-fuzz -i seeds -o output -- libpng-1.2.56 @@`
 
-+ Although stoch-fuzz does support Position-independent code (PIC), there are some implementation bugs which make fuzzing PIC binaries failed. Hence, we remove this part of the implementation temporally, and will fix it as soon as possible.
++ Although stoch-fuzz does support Position-independent code (PIC), there are some implementation bugs which make fuzzing PIC binaries failed. Hence, we remove the related code temporally, and will fix it as soon as possible.
 
-+ The provided stoch-fuzz has been tested on Ubuntu 16.04, 18.04, and 19.04.
++ The provided executable has been tested on Ubuntu 16.04, 18.04, and 19.04.
